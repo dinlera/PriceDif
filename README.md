@@ -1,4 +1,4 @@
-# PriceDif
+# Reducing Balancing Cost of a Wind Power Plant by Deep Learning in Market Data
 
 
 Although extensive and detailed market data are constantly publicized by the market operator, historical market data are not utilized effectively to reduce the imbalance cost. This study initially casts the imbalance cost reducing problem as a binary classification problem and constructs a framework that consists of a long short term memory autoencoder and a blend of advanced classifiers. Then, the method extracts information from the market data if the day-ahead or imbalance price will be higher at a given hour of the next day. Using this information, auxiliary algorithms alter existing production forecasts and prevents abrupt rises in the imbalance cost.
